@@ -228,6 +228,11 @@ h3 {
 	margin-left: -70px
 }
 
+.like .like2 .like3: hover {
+	display: block;
+	background-image: url('image/heart_empty.png');
+}
+
 .label {
 	position: absolute;
 	top: 440px;
@@ -303,7 +308,7 @@ h3 {
 	margin-top: -340px;
 	margin-left: 560px;
 	z-index: 1000px;
-	-webkit-filter: drop-shadow(0px 3px 3px #000)
+	-webkit-filter: drop-shadow(0px 3px 3px #000);
 }
 
 .small {
@@ -314,7 +319,12 @@ h3 {
 	margin-top: -250px;
 	margin-left: 595px;
 	z-index: 1000px;
-	-webkit-filter: drop-shadow(0px 3px 3px #000)
+	-webkit-filter: drop-shadow(0px 3px 3px #000);
+}
+
+.scroll {
+	-webkit-filter: drop-shadow(0px 3px 3px #000);
+	padding-top: 160px;
 }
 
 .title-branch {
