@@ -280,11 +280,20 @@ h3 {
 
 }
 
+.third {
+	position: relative;
+	margin-top: 10px;
+}
+
 .secitem {
 	margin: 8.5px;
 	-webkit-filter: drop-shadow(0px 0px 4px #000)
 }
 
+.thitem {
+	margin: 8.5px;
+	border-radius: 10px;
+}
 
 .secone {
 	text-align: left;
@@ -296,6 +305,7 @@ h3 {
 	margin-left: 780px;
 	margin-top:-136px;
 }
+
 
 .post {
 	-webkit-filter: brightness(0.6);
