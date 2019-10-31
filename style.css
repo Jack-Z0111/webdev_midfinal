@@ -252,8 +252,13 @@ h3 {
 .item {
 	display: inline;
 	float: left;
-
 }
+
+.itemb {
+	display: inline;
+	max-width: 1000px;
+}
+
 
 .pad {
 	padding-color: #53A1FF
@@ -342,6 +347,20 @@ h3 {
 	-webkit-filter: drop-shadow(0px 3px 3px #000)
 }
 
+.title-genre {
+	z-index: 100px;
+	color: white;
+	font-size: 50px;
+	font-family: Verdana;
+	padding-top: 240px;
+	-webkit-filter: drop-shadow(0px 3px 3px #000)
+}
+
+.title-intro {
+	color: white;
+	font-size: 25px;
+	-webkit-filter: drop-shadow(0px 3px 3px #000)
+}
 .title-cover {
 	float: left;
 	position: absolute;
@@ -370,4 +389,27 @@ h3 {
 	font-family: Verdana;
 }
 
+.back {
+	background-size: 960px;
+	border-radius: 20px;
+}
 
+.feat {
+	text-align: left;
+	padding-top: 360px;
+	padding-left: 30px;
+	font-size: 40px;
+	font-family: Verdana;
+	color: white;
+	-webkit-filter: drop-shadow(0px 0px 5px #000)
+}
+
+.feat-author {
+	text-align: left;
+	padding-left: 30px;
+	padding-top:-20px;
+	font-size: 24px;
+	font-family: Verdana;
+	color: white;
+	-webkit-filter: drop-shadow(0px 0px 5px #000)
+}
